@@ -22,4 +22,8 @@ android {
 		release {}
 		preview {}
 	}
+	defaultConfig {
+		targetSdkVersion project.properties.targetSdkVersion as int
+		minSdkVersion project.properties.minSdkVersion as int
+	}
 }
